@@ -1,0 +1,129 @@
+body{
+	margin:0px;
+	padding: 0px;
+	overflow:hidden;
+	pointer-events: none;
+}
+.popup{
+	cursor: default;
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #ccc;
+	position: absolute;
+	pointer-events: all;
+	margin-top:20%;
+	margin-left: 35%; 
+	width: 300px;
+	height:;
+	z-index: 2;
+	box-shadow: 15px 15px 20px 0px rgba(0,0,0.4,0.4);
+	/*border: 1px solid black;*/
+}
+#message{
+	font-size: 15px;
+	color: red;
+	padding: 0px;
+	margin-left: 70px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	display: none;
+}
+#indetail p:first-child{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+	font-size: 1.5em;
+}
+#indetail input{
+	width: 200px;
+	height: 25px;
+	border: none;
+	outline: none;
+	padding-left: 10px;
+}
+#bton3{
+	margin-top: 15px;
+	margin-left: 180px;
+}
+#container{
+	width:100%;
+	opacity: 0.5;
+	height: 100%
+}
+#playercontainer{
+	float: left;
+	width: 30%;
+	height: 1000px;
+	background-color: #f1f1f1;
+}
+#game{
+/*	background-color: red;*/
+	float: right; 
+	width: 70%;
+	height: 1000px;
+	text-align: center;
+}
+#playerprofile{
+	text-align: center;
+	font-size: 10em;
+	color: #888;
+}
+#scorehead{
+	font-size: 3vw;
+	font-style: bold;
+	font-family: Verdana, Geneva, sans-serif ;
+	color:#666;
+	margin-left: 10px;
+	margin-bottom: 0px;
+}
+.contscore{
+	font-size: 2vw;
+	margin-top: 0px;
+	font-family: Georgia, serif ;
+	color:#666;
+	margin-left: 10px;
+}
+#score{
+	color:#555;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+
+#info{
+	font-size: 3vw;
+	color:#666;
+	text-align: center;
+}
+
+.bton{
+	border:none;
+	margin: 0px 5px;
+	padding:10px 30px;
+	background-color: #41F7A1;
+	color:white;
+	font-size: 1.5em;
+	outline: none;
+}
+.bton:hover{
+	background-color: red;
+	transition-duration: 1s;
+	cursor: pointer;
+	box-shadow: 0px 15px 17px 0px rgba(0,0,0.4,0.4);
+}
+#dicecontainer{
+	margin: 40px auto;
+	width:300px;
+	height:100%;
+}
+#dice{
+	transition-duration: 3s;
+	font-size: 5em;
+	padding:10px;
+	margin-top: 0px;
+	color: #263238;
+}
+#content{
+	margin-top: 0px;
+	font-size: 3vw;
+	color:#777;
+}

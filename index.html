@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="LogoSample_ByTailorBrands.jpg">
+	<title>dice</title>
+	<script type="text/javascript" src="sign.js"></script>
+	<link rel="stylesheet" type="text/css" href="sign.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="sign_jq.js"></script>
+
+</head>
+<body >
+	<div id="indetail" class="popup">
+		<p>Name:<input id="pname" type="text" name="pname" value="Player 1" onclick="this.select();"></p>
+		<p id="message">*input field required</p>
+		<button id="bton3" class="bton">Next</button>
+	</div>
+	<div id="container">
+		<div id="playercontainer">
+			<div id="playerprofile"><i class="fas fa-user-circle"></i></div>
+			<p id="scorehead"><u>Score</u></p>
+			<div id="player" class="contscore"><span id="plname">Player 1: </span><span id="score"></span></div>
+
+			</div>
+
+
+
+		<div id="game">
+			<p id="info">Click the below button to throw dice . . .</p>
+			<button type="button" id="bton1" class="bton" onclick="myFunction()">click!<span id="count"></span></button>
+			<button type="button" id="bton2" class="bton" onclick="reset()">REFRESH</button>
+			<div id="dicecontainer">
+				<div id="dice"><i class='fas fa-dice'></i></div>
+				<p id="content"></p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
